@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<level>
+	<info>
+		<name>two goals</name>
+		<description></description>
+		<author>Anthony Mattox</author>
+		<particles>0</particles>
+	</info>
+	<objects>
+	
+		<object>
+			<type>generator</type>
+			<x>315</x>
+			<y>370</y>
+			<locked>true</locked>
+		</object>
+		
+		<object>
+			<type>goal</type>
+			<x>180</x>
+			<y>80</y>
+			<locked>true</locked>
+		</object>
+		<object>
+			<type>goal</type>
+			<x>770</x>
+			<y>200</y>
+			<locked>true</locked>
+		</object>
+
+		<object>
+			<type>force</type>
+			<active>false</active>
+			<charge>0</charge>
+		</object>
+		<object>
+			<type>force</type>
+			<active>false</active>
+			<charge>0</charge>
+		</object>
+		<object>
+			<type>force</type>
+			<active>false</active>
+			<charge>0</charge>
+		</object>
+		<object>
+			<type>force</type>
+			<active>false</active>
+			<charge>0</charge>
+		</object>
+		
+	</objects>
+</level>

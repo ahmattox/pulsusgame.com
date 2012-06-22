@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<gameInfo>
+	<info>
+		<version>.2</version>
+		<author>anthony mattox</author>
+		<url>www.anthonymattox.com</url>
+	</info>
+	<levels>
+		<level>
+			<name>first level</name>
+			<location>first_level</location>
+		</level>
+		<level>
+			<name>the basics</name>
+			<location>basic</location>
+		</level>
+		<level>
+			<name>distance</name>
+			<location>distance</location>
+		</level>
+		<level>
+			<name>two targets</name>
+			<location>two_targets</location>
+		</level>
+		<level>
+			<name>line</name>
+			<location>line</location>
+		</level>
+		<level>
+			<name>three targets</name>
+			<location>three_targets</location>
+		</level>
+		<level>
+			<name>00</name>
+			<location>one_color</location>
+		</level>
+		<level>
+			<name>00</name>
+			<location>grey_and_color</location>
+		</level>
+		<level>
+			<name>00</name>
+			<location>two_targets_b</location>
+		</level>
+		<level>
+			<name>00</name>
+			<location>three_colors</location>
+		</level>
+		<level>
+			<name>00</name>
+			<location>grey_and_color_b</location>
+		</level>
+		<level>
+			<name>00</name>
+			<location>two_colors</location>
+		</level>
+		<level>
+			<name>00</name>
+			<location>grey_and_color_c</location>
+		</level>
+		<level>
+			<name>00</name>
+			<location>missing_force</location>
+		</level>
+		<level>
+			<name>00</name>
+			<location>color_split</location>
+		</level>
+		<level>
+			<name>00</name>
+			<location>three_colors_b</location>
+		</level>
+		<level>
+			<name>two colors b</name>
+			<location>two_colors_b</location>
+		</level>
+		<level>
+			<name>three colors c</name>
+			<location>three_colors_c</location>
+		</level>
+		<level>
+			<name>hex b</name>
+			<location>hex_b</location>
+		</level>
+		<level>
+			<name>color cross</name>
+			<location>color_cross</location>
+		</level>
+		<level>
+			<name>four greys</name>
+			<location>four_greys</location>
+		</level>
+		<level>
+			<name>snake</name>
+			<location>snake</location>
+		</level>
+		<!--<level>
+			<name>hex</name>
+			<location>hex</location>
+		</level>
+		<level>
+			<name>grey corners</name>
+			<location>grey_corners</location>
+		</level>
+		<level>
+			<name>spin</name>
+			<location>spin</location>
+		</level>
+		<level>
+			<name>clover</name>
+			<location>clover</location>
+		</level> -->
+	</levels>
+</gameInfo>

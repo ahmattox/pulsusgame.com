@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<level>
+	<info>
+		<name>spin</name>
+		<description></description>
+		<index>0</index>
+		<author>Anthony Mattox</author>
+	</info>
+	<objects>
+	
+		<object>
+			<type>generator</type>
+			<x>130</x>
+			<y>360</y>
+			<locked>true</locked>
+		</object>
+		
+		<object>
+			<type>goal</type>
+			<x>610</x>
+			<y>190</y>
+			<locked>true</locked>
+			<charge>1</charge>
+		</object>
+		<object>
+			<type>goal</type>
+			<x>710</x>
+			<y>90</y>
+			<locked>true</locked>
+			<charge>0</charge>
+		</object>
+		<object>
+			<type>goal</type>
+			<x>510</x>
+			<y>290</y>
+			<locked>true</locked>
+			<charge>0</charge>
+		</object>
+		
+		<object>
+			<type>force</type>
+			<active>false</active>
+			<charge>0</charge>
+		</object>
+		<object>
+			<type>force</type>
+			<active>false</active>
+			<charge>0</charge>
+		</object>
+		<object>
+			<type>force</type>
+			<active>false</active>
+			<charge>0</charge>
+		</object>
+		<object>
+			<type>force</type>
+			<active>false</active>
+			<charge>0</charge>
+		</object>
+		<object>
+			<type>force</type>
+			<active>false</active>
+			<charge>1</charge>
+		</object>
+		<object>
+			<type>force</type>
+			<active>false</active>
+			<charge>1</charge>
+		</object>
+		
+	</objects>
+</level>

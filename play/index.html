@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<title>Pulsus - a game of particles</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<meta name="description" content="Pulsis is a puzzle game about particles designed by Anthony Mattox" />
+	<meta name="keywords" content="game, flash, particle, particles, particle system, anthony mattox, art, interactive, design, awesome, fun, free" />
+	
+	<link type="text/css" rel="stylesheet" href="css/main.css" />
+	<script type="text/javascript" src="scripts/swfobject.js"></script>
+	
+    <script type="text/javascript">
+		swfobject.registerObject("gameObject", "9");
+    </script>
+	
+</head>
+<body>
+	<div id="game" class="container">
+		<div id="head">
+			<img id="watermark" src="img/watermark.gif" width="140" height="129" />
+			<h1><a href="#">Pulsus, a game of particles by Anthony Mattox</a></h1>
+			<ul id="nav">
+				<li id="navone" class="current" ><a href="#">play the game</a></li>
+				<li id="navtwo"					><a href="how_to.html">how to play</a></li>
+				<li id="navthree"				><a href="about.html">about the game</a></li>
+			</ul>
+			<div id="description">
+				<p>Pulsis is a puzzle game about particles designed by Anthony Mattox.</p>
+			</div>
+			<div id="devlink">
+				<a href="http://twitter.com/ahmattox">give feedback</a>
+			</div>
+		</div>
+		<div id="body">
+			<object id="gameObject" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="870" height="500">
+				<param name="movie" value="pulsus.swf" />
+				<!--[if !IE]>-->
+				<object type="application/x-shockwave-flash" data="pulsus.swf" width="870" height="500">
+				<!--<![endif]-->
+				  <p>On Noes! Your browser can't handle this.</p>
+				<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+			</object>
+		</div>
+		<div id="foot">	
+			<a href="http://www.anthonymattox.com">by anthony mattox</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+	try {
+	var pageTracker = _gat._getTracker("UA-6086323-4");
+	pageTracker._trackPageview();
+	} catch(err) {}</script>
+</body>
+</html>

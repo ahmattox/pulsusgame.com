@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<level>
+	<info>
+		<name>Level 4</name>
+		<description></description>
+		<index>0</index>
+		<author>Anthony Mattox</author>
+	</info>
+	<objects>
+	
+		<object>
+			<type>generator</type>
+			<x>125</x>
+			<y>270</y>
+			<locked>true</locked>
+		</object>
+		
+		<object>
+			<type>goal</type>
+			<x>765</x>
+			<y>270</y>
+			<locked>true</locked>
+			<charge>1</charge>
+		</object>
+		<object>
+			<type>goal</type>
+			<x>600</x>
+			<y>165</y>
+			<locked>true</locked>
+			<charge>0</charge>
+		</object>
+	
+		<object>
+			<type>force</type>
+			<active>false</active>
+			<charge>0</charge>
+		</object>
+		<object>
+			<type>force</type>
+			<active>false</active>
+			<charge>0</charge>
+		</object>
+		<object>
+			<type>force</type>
+			<active>false</active>
+			<charge>0</charge>
+		</object>
+		<object>
+			<type>force</type>
+			<active>false</active>
+			<charge>0</charge>
+		</object>
+		<object>
+			<type>force</type>
+			<active>false</active>
+			<charge>1</charge>
+		</object>
+		<object>
+			<type>force</type>
+			<active>false</active>
+			<charge>1</charge>
+		</object>
+		
+	</objects>
+</level>

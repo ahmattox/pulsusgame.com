@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<level>
+	<info>
+		<name>basic</name>
+		<description></description>
+		<index>0</index>
+		<author>Anthony Mattox</author>
+	</info>
+	<objects>
+	
+		<object>
+			<type>generator</type>
+			<x>435</x>
+			<y>250</y>
+			<locked>true</locked>
+		</object>
+		
+		<object>
+			<type>goal</type>
+			<x>800</x>
+			<y>250</y>
+			<locked>true</locked>
+		</object>
+		<object>
+			<type>goal</type>
+			<x>70</x>
+			<y>250</y>
+			<locked>true</locked>
+		</object>
+
+		<object>
+			<type>force</type>
+			<charge>0</charge>
+			<active>false</active>
+		</object>
+
+		<object>
+			<type>force</type>
+			<charge>0</charge>
+			<active>false</active>
+		</object>
+		
+	</objects>
+</level>

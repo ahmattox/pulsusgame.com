@@ -1,0 +1,443 @@
+/*
+ *  Created: 4/9/11
+ *  Last Edited: 4/9/11
+ *
+ */
+ 
+
+/* ---- GLOBAL STYLES ---- */
+
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body{
+	font-size: 14px;
+	font-family: Helvetica, Arial, sans-serif;
+	height: 100%;
+	background: #D8D9CF url(img/bg.png) top center no-repeat;
+}
+
+a{
+	color: black;
+	text-decoration: underline;
+	outline: none;
+}
+
+a:hover{
+	color: #FFA60B;
+}
+
+a.color0:hover {
+	color: #FFA60B;
+}
+a.color1:hover{
+	color: #E200C9;
+}
+a.color2:hover{
+	color: #00D4EB;
+}
+
+a img{
+	border: none;
+}
+
+p{
+	padding: 0 0 13px;
+	line-height: 1.25em;
+}
+
+img,
+div{
+	position: relative;
+}
+
+
+ul{
+	list-style: circle;
+	position: relative;
+	padding: 0 0 30px 18px;
+}
+
+ul li{
+	position: relative;
+	padding: 0 0 5px;
+}
+
+
+h1{
+	padding: 0 0 15px;
+}
+
+h2{
+	padding: 0 0 10px;
+}
+
+h3{
+	padding: 0 0 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.clear{
+	clear:both;
+	height:0px;
+	line-height:0px;
+	font-size:0px;
+}
+
+.hidden{
+	display:none;
+}
+
+.imgreplace{
+	display:block;
+	text-indent:-500px;
+	overflow:hidden;
+	font-size:0px;
+	background-repeat:no-repeat;
+}
+
+
+
+/* ---- GLOBAL LAYOUT ---- */
+
+#container{
+	border-bottom: solid 27px black;
+	min-width: 960px;
+}
+
+#container2{
+	border-bottom: solid 3px #ADADA5;
+	min-width: 960px;
+}
+
+#body{
+	min-height: 100%;
+	width: 940px;
+	margin: 0 auto;
+	padding: 65px 0px 60px 20px;
+}
+
+.section {
+	padding-bottom: 40px;
+}
+
+#credits{
+	padding-bottom: 110px;
+}
+
+.column {
+	float: left;
+	padding: 0 40px 0 0;
+	width: 250px;
+}
+
+.column.last{
+	padding-right: 0;
+}
+
+
+
+/* ---- HEADINGS ---- */
+
+h1{
+	height: 64px;
+	width: 250px;
+	background-image: url(img/Logo.png);
+	padding: 0 0 70px;
+}
+
+h2{
+	height: 29px;
+	width: 250px;
+	padding: 0 0 24px;
+}
+
+h2#heading-how_to {
+	background-image: url(img/heading-how_to.png);
+	margin:51px 0 0;
+}
+
+h2#heading-feedback {
+	background-image: url(img/heading-feedback.png);
+}
+
+h2#heading-credits {
+	background-image: url(img/heading-credits.png);
+}
+
+div#message_bar{
+	border-top: solid 5px black;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+div#message_bar p{
+	position: relative;
+	width: 800px;
+	margin: 0 auto;
+	padding: 8px 0 6px;
+	z-index: 5;
+}
+
+div#message_bar #message_bar-bg{
+	background: black;
+	opacity: .2;
+	height: 29px;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+div#message_bar a:hover{
+	color: white;
+}
+
+
+
+
+div#feedback_thanks {
+	position: absolute;
+	top: 34px;
+	left: 0px;
+	right: 0px;
+	background: #FFBB46;
+	color: black;
+	
+}
+
+div#feedback_thanks p {
+	padding: 0;
+	position: relative;
+	width: 800px;
+	margin: 0 auto;
+	padding: 10px 0 10px;
+	font-size: 120%;
+}
+
+
+
+
+
+/* ---- SCREENSHOTS ---- */
+
+#screenshots {
+	float: left;
+	width:625px;
+	height: 892px;
+	background: url(img/iPad-v-large_bgcolor.png) no-repeat;
+	margin: 0 40px 0 0;
+	padding: 0;
+	cursor: pointer;
+}
+
+#screenshots img.screenshot {
+	display: none;
+	top: 75px;
+	left: 66px;
+	position: absolute;
+}
+
+#screenshots img.first{
+	display: block;
+}
+
+#screenshots #reflection {
+	background: url(img/screen-reflection.png) no-repeat;
+	position: absolute;
+	top: 75px;
+	left: 66px;
+	width: 495px;
+	height: 660px;
+}
+
+#ssnav_buttons {
+}
+
+#ssnav_buttons a {
+	float: left;
+	display: block;
+	margin: 0 10px 0 0;
+	width: 36px;
+	height: 24px;
+	padding: 8px 0 0;
+	text-align: center;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	background: #CCCCC7;
+	text-decoration: none;
+	cursor: pointer;
+	color: black;
+}
+
+#ssnav_buttons a:hover{
+	background: #FFA60B;
+}
+
+#ssnav_buttons a.color1:hover{
+	background: #E200C9;
+}
+
+#ssnav_buttons a.color2:hover{
+	background: #00D4EB;
+}
+
+#ssnav_buttons a.current {
+	background: black;
+	color: white;
+}
+
+
+
+/* ---- SECTION 1: MAIN INFO ---- */
+
+#main-info {
+	padding: 70px 0 0;
+}
+
+#appstore {
+	font-size: 12px;
+	padding: 0 0 30px;
+}
+
+#appstore img {
+  display: block;
+}
+
+#appstore a {
+  display: block;
+  float: left;
+  margin-right: 7px;
+}
+
+#appstore a.device {
+  padding-top: 1px;
+}
+
+#buttons {
+	margin: 12px 0 50px;
+}
+
+a#button {
+	display: block;
+	padding: 10px 10px 10px;
+	text-align: center;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	background: #CCCCC7;
+	text-decoration: none;
+	cursor: pointer;
+	margin: 0 0 10px;
+}
+
+a#button:hover {
+	background: #FFA60B;
+	color: black;
+}
+
+a#button.color1:hover{
+	background: #E200C9;
+}
+
+a#button.color2:hover{
+	background: #00D4EB;
+}
+
+img#victory-icon {
+	float: left;
+	padding-right: 13px;
+	position: relative;
+	top: 1px;
+}
+
+
+
+/* ---- FORM ---- */
+
+#contact,
+#contact form {
+	width: 320px;
+	min-height: 20px;
+}
+
+#contact form input[type="submit"]{
+	cursor:pointer;
+	background: #C2C2BA;
+	border: none;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	width: 320px;
+	padding: 9px 0 8px;
+	font-weight: bold;
+	color: white;
+	font-size: 14px;
+	margin: 13px 0 0;
+	display: block;
+	letter-spacing: .04em; 
+	text-rendering: optimizeLegibility;
+	-webkit-appearance: none;
+}
+
+#contact form input[type="submit"].disabled{
+	cursor: default;
+}
+
+#contact form input[type=text],
+textarea{
+	border:none;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	padding: 9px 8px 5px;
+	width: 234px;
+	background: #E8E8E4;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	margin: 0 0 8px;
+	display: block;
+}
+
+#contact form input[type=text].default,
+#contact form textarea.default{
+	font-style: italic;
+	color: #A2A29F;
+}
+
+#contact form input[type=text]:focus,
+#contact form textarea:focus{
+	background: white;
+}
+
+#contact form textarea {
+	height: 100px;
+	width: 304px;
+}
+
+#contact form label {
+	float: left;
+	width: 100px;
+	padding: 0 0 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
